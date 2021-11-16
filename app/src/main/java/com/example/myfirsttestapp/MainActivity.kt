@@ -29,14 +29,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentNumb)
         }
 
-        val symbolList: List<String> = listOf("А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я" )//А, Б, В, Г, Д, Е, Ё, Ж, З, И, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я.
-
-
-        val symbolsRecyclerView: RecyclerView = findViewById(R.id.symbol_recycler_view)
-        symbolsRecyclerView.layoutManager =
-            GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false)
-
-        symbolsRecyclerView.adapter = LettersAdapter(symbolList)
 
 
     }

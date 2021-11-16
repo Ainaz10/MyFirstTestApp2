@@ -1,4 +1,4 @@
-package com.og.recyclerviewapplication
+package com.example.myfirsttestapp
 
 import android.view.View
 import android.widget.Button
