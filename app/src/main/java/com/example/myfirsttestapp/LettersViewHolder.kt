@@ -1,11 +1,11 @@
 package com.example.myfirsttestapp
 
 import android.view.View
-import android.widget.Button
+
 import android.widget.TextView
-import android.widget.Toast
+
 import androidx.recyclerview.widget.RecyclerView
-import com.example.myfirsttestapp.R
+
 
 class LettersViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
