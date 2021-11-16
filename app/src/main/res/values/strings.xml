@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyFirstTestApp</string>
+
+    <string name="button_alfabit">Буквы</string>
+    <string name="button_numbers">Цифры</string>
+    <string name="button_fruit">Фрукты</string>
+    <string name="win_alfabet">окно алфавита</string>
+    <string name="win_numb">окно чисел</string>
+    <string name="win_fruit">окно фруктов</string>
+    <string name="text_privet">Привет друг, давай с тобой поиграем! \n Выбери тему:</string>
+    <string name="menu_image">Menu image</string>
+</resources>

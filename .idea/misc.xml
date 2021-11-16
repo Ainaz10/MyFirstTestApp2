@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_alfabet.xml" value="0.34375" />
+        <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_main.xml" value="0.2683923705722071" />
+        <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_numbers.xml" value="0.34375" />
+        <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/letters_list_item.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/text_radius.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/drawable/text_view_radius.xml" value="0.25885416666666666" />
+        <entry key="app/src/main/res/layout/activity_alfabet.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_fruit.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2985265855221012" />
+        <entry key="app/src/main/res/layout/activity_numbers.xml" value="0.23731884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
