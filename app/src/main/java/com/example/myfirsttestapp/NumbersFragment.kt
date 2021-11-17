@@ -10,22 +10,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class ActivityNumbers : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_numbers)
-
-        val numberList: List<Int> = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
-
-
-        val numbersRecyclerView: RecyclerView = findViewById(R.id.number_recycler_view)
-        numbersRecyclerView.layoutManager =
-            GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false)
-
-        numbersRecyclerView.adapter = NumbersAdapter(numberList)
-    }
-}
-
 class NumbersFragment : Fragment() {
 
     private lateinit var backButton: Button
@@ -49,3 +33,20 @@ class NumbersFragment : Fragment() {
         return view
     }
 }
+
+class ActivityNumbers : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.fragment_numbers)
+
+        val numberList: List<Int> = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+
+
+        val numbersRecyclerView: RecyclerView = findViewById(R.id.number_recycler_view)
+        numbersRecyclerView.layoutManager =
+            GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false)
+
+        numbersRecyclerView.adapter = NumbersAdapter(numberList)
+    }
+}
+

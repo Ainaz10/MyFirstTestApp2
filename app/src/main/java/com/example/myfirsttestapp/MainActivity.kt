@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // окно букв
-        val buttonAlfabet: Button = findViewById(R.id.button_alfabet)
+/*        val buttonAlfabet: Button = findViewById(R.id.button_alfabet)
 
         val intentAlfabet = Intent(this, ActivityAlfabet::class.java)
 
@@ -33,12 +33,14 @@ class MainActivity : AppCompatActivity() {
         buttonNumb.setOnClickListener{
             startActivity(intentNumb)
         }
+
+ */
         bottomMenu = findViewById(R.id.bottom_menu)
 
         bottomMenu.setOnItemSelectedListener { item ->
             when (item.itemId) {
 
-                R.id.menu_bottom -> {
+                R.id.bottom_menu -> {
                     val menuFragment = MenuFragment()
                     replaceFragment(menuFragment)
                 }

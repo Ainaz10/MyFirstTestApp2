@@ -9,18 +9,25 @@ import androidx.fragment.app.Fragment
 
 class MenuFragment : Fragment() {
 
-    private lateinit var backButton: Button
+    private lateinit var button_alfabet: Button
+    private lateinit var button_numb: Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_menu, container, false)
-
-        backButton = view.findViewById(R.id.back_button)
-
         val menuFragment =  MenuFragment()
-        backButton.setOnClickListener {
+
+        button_alfabet = view.findViewById(R.id.button_alfabet)
+        button_alfabet.setOnClickListener {
+            activity?.supportFragmentManager
+                ?.beginTransaction()
+                ?.replace(R.id.fragment_container, menuFragment)
+                ?.commit()}
+
+        button_numb = view.findViewById(R.id.button_numb)
+        button_alfabet.setOnClickListener {
             activity?.supportFragmentManager
                 ?.beginTransaction()
                 ?.replace(R.id.fragment_container, menuFragment)
