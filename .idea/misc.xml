@@ -3,17 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp2/app/src/main/res/layout/activity_main.xml" value="0.28396739130434784" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp2/app/src/main/res/layout/fragment_about.xml" value="0.28396739130434784" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp2/app/src/main/res/layout/fragment_alfabet.xml" value="0.28396739130434784" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp2/app/src/main/res/layout/fragment_menu.xml" value="0.28396739130434784" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp2/app/src/main/res/layout/fragment_numbers.xml" value="0.28396739130434784" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp2/app/src/main/res/layout/letters_list_item.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp2/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_alfabet.xml" value="0.2" />
         <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_main.xml" value="0.2683923705722071" />
         <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_numbers.xml" value="0.34375" />
         <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/letters_list_item.xml" value="0.2453125" />
+        <entry key="app/src/main/res/drawable/ic_baseline_looks_one_24.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/text_radius.xml" value="0.25885416666666666" />
         <entry key="app/src/main/res/drawable/text_view_radius.xml" value="0.25885416666666666" />
@@ -21,11 +15,12 @@
         <entry key="app/src/main/res/layout/activity_fruit.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2985265855221012" />
         <entry key="app/src/main/res/layout/activity_numbers.xml" value="0.23731884057971014" />
-        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.34556159420289856" />
-        <entry key="app/src/main/res/layout/fragment_alfabet.xml" value="0.21197916666666666" />
-        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.34556159420289856" />
-        <entry key="app/src/main/res/layout/letters_list_item.xml" value="0.10914855072463768" />
-        <entry key="app/src/main/res/layout/numbers_list_item.xml" value="0.11803444782168186" />
+        <entry key="app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_alfabet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_numbers.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/letters_list_item.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/numbers_list_item.xml" value="0.67" />
         <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.37604166666666666" />
       </map>
     </option>

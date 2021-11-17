@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 
 class AboutFragment : Fragment() {
 
-    private lateinit var backButton: Button
+  //  private lateinit var backButton: Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -17,6 +17,7 @@ class AboutFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_about, container, false)
 
+/*
         backButton = view.findViewById(R.id.back_button)
 
         val menuFragment = MenuFragment()
@@ -26,7 +27,7 @@ class AboutFragment : Fragment() {
                 ?.replace(R.id.fragment_container, menuFragment)
                 ?.commit()
         }
-
+*/
         return view
     }
 

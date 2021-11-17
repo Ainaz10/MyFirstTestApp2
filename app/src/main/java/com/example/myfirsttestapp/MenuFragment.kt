@@ -17,20 +17,23 @@ class MenuFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_menu, container, false)
-        val menuFragment =  MenuFragment()
+
 
         button_alfabet = view.findViewById(R.id.button_alfabet)
+        val alfabetFragment =  AlfabetFragment()
+
         button_alfabet.setOnClickListener {
             activity?.supportFragmentManager
                 ?.beginTransaction()
-                ?.replace(R.id.fragment_container, menuFragment)
+                ?.replace(R.id.fragment_container, alfabetFragment)
                 ?.commit()}
 
         button_numb = view.findViewById(R.id.button_numb)
-        button_alfabet.setOnClickListener {
+        val numbersFragment =  NumbersFragment()
+        button_numb.setOnClickListener {
             activity?.supportFragmentManager
                 ?.beginTransaction()
-                ?.replace(R.id.fragment_container, menuFragment)
+                ?.replace(R.id.fragment_container, numbersFragment)
                 ?.commit()
         }
 

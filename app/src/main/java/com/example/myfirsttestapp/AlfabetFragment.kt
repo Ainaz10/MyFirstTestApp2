@@ -10,34 +10,17 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class ActivityAlfabet : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.fragment_alfabet)
-
-
-        val symbolList: List<String> = listOf("А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я" )//А, Б, В, Г, Д, Е, Ё, Ж, З, И, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я.
-
-        val symbolsRecyclerView: RecyclerView = findViewById(R.id.symbol_recycler_view)
-        symbolsRecyclerView.layoutManager =
-            GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false)
-
-        symbolsRecyclerView.adapter = LettersAdapter(symbolList)
-
-
-    }
-}
 
 class AlfabetFragment : Fragment() {
 
-    private lateinit var backButton: Button
+    //private lateinit var backButton: Button
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_alfabet, container, false)
-
+/*
         backButton = view.findViewById(R.id.back_button)
 
         val menuFragment = MenuFragment()
@@ -47,7 +30,15 @@ class AlfabetFragment : Fragment() {
                 ?.replace(R.id.fragment_container, menuFragment)
                 ?.commit()
         }
+*/
+        val symbolList: List<String> =
+            listOf("А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я" )//А, Б, В, Г, Д, Е, Ё, Ж, З, И, Й, К, Л, М, Н, О, П, Р, С, Т, У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я.
 
+        val symbolsRecyclerView: RecyclerView = view.findViewById(R.id.symbol_recycler_view)
+        symbolsRecyclerView.layoutManager =
+            GridLayoutManager(context, 3, GridLayoutManager.VERTICAL, false)
+
+        symbolsRecyclerView.adapter = LettersAdapter(symbolList)
         return view
     }
 }
