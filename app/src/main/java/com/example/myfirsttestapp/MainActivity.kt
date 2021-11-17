@@ -17,6 +17,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val intent = Intent(Intent.ACTION_SEND)
+        intent.type = "text/plain"
+        intent.putExtra(
+            Intent.EXTRA_TEXT,
+            "Делюсь приложением для детей от 2 до 5 лет. Быстрее посмотри!"
+        )
+
+
+
         // окно букв
 /*        val buttonAlfabet: Button = findViewById(R.id.button_alfabet)
 
@@ -59,12 +68,18 @@ class MainActivity : AppCompatActivity() {
                     val aboutFragment = AboutFragment()
                     replaceFragment(aboutFragment)
                 }
+                R.id.share_button-> {
+                    val chooser = Intent.createChooser(intent, " Поделиться ")
+                        startActivity(chooser)
+
+                }
 
             }
             true
         }
 
-        bottomMenu.selectedItemId = savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.bottom_menu
+        bottomMenu.selectedItemId =
+            savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.bottom_menu
     }
 
     private fun replaceFragment(fragment: Fragment) {
@@ -80,4 +95,4 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    }
+}

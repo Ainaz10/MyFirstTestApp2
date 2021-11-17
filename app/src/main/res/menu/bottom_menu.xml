@@ -22,6 +22,10 @@
         android:id="@+id/about_bottom"
         android:icon="@drawable/ic_baseline_info_24"
         android:title="@string/about" />
+    <item
+        android:id="@+id/share_button"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="@string/share_text" />
 
 
 </menu>

@@ -15,4 +15,5 @@
     <string name="about">О нас</string>
     <string name="age_text">Игра была разработана для детей от 2 до 5 лет</string>
     <string name="to_back">Назад</string>
+    <string name="share_text">Поделиться</string>
 </resources>

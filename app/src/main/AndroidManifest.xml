@@ -10,14 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFirstTestApp">
         <activity
-            android:name=".Activity_Fruit"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_Numbers"
-            android:exported="false" />
-        <activity
-            android:name=".Activity_Alfabet"
-            android:exported="false" />
+            android:name=".SecondActivity"
+            android:exported="true" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
