@@ -30,11 +30,28 @@ class NumbersFragment : Fragment() {
                 ?.commit()
         }
 
-        return view
-    }
-}
 
-class ActivityNumbers : AppCompatActivity() {
+            val numberList: List<Int> =
+                listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
+
+
+            val numbersRecyclerView: RecyclerView = view.findViewById(R.id.number_recycler_view)
+            numbersRecyclerView.layoutManager =
+                GridLayoutManager(context, 3,  GridLayoutManager.VERTICAL, false)
+
+            numbersRecyclerView.adapter = NumbersAdapter(numberList)
+
+
+            return view
+        }
+
+
+
+    }
+
+
+
+/*class ActivityNumbers : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_numbers)
@@ -49,4 +66,4 @@ class ActivityNumbers : AppCompatActivity() {
         numbersRecyclerView.adapter = NumbersAdapter(numberList)
     }
 }
-
+*/

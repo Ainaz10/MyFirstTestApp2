@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
-        //bottomMenu.selectedItemId = savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.menu
+        bottomMenu.selectedItemId = savedInstanceState?.getInt(LAST_SELECTED_ITEM) ?: R.id.bottom_menu
     }
 
     private fun replaceFragment(fragment: Fragment) {
