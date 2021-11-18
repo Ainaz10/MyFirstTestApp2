@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2046875" />
         <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp3/app/src/main/res/layout/fragment_menu.xml" value="0.28396739130434784" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp3/app/src/main/res/mipmap-anydpi-v26/a1_launcher_round.xml" value="0.2046875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2796296296296296" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/MyFirstTestApp3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2796296296296296" />
         <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_alfabet.xml" value="0.2" />
         <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_main.xml" value="0.2683923705722071" />
         <entry key="..\:/Users/User/Desktop/MyFirstTestApp-master/app/src/main/res/layout/activity_numbers.xml" value="0.34375" />

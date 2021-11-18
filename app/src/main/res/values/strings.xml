@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyFirstTestApp</string>
+    <string name="app_name">Обучайка</string>
 
     <string name="button_alfabit">Буквы</string>
     <string name="button_numbers">Цифры</string>
